@@ -1,5 +1,9 @@
 import './styles.scss';
 
-import './js/storage/Connection.class';
+import {getMovie} from './js/components';
+import {searchMovie, searchCharacters} from './js/storage/Connection';
 
 
+const totoro = getMovie('toto');
+
+console.log(totoro.characters);

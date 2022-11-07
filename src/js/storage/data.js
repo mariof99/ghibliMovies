@@ -309,7 +309,7 @@ export const movies = [
     }
 ]
 
-const people = [
+export const people = [
     {
         "id": "267649ac-fb1b-11eb-9a03-0242ac130003",
         "name": "Haku",
