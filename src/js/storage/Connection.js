@@ -18,7 +18,8 @@ export const searchCharacters = async(movieId) => {
         return char.films[0] == movieId;
     });
 
-    if (movieCharacters.length > 0) {
+    if (movieCharacters) {
+        console.log(movieCharacters);
         return movieCharacters;
     }
     else {
